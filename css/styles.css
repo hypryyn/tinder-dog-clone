@@ -140,3 +140,14 @@ p {
     text-align: center;
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .Title-Image {
+        position: static;
+        transform: rotate(0);
+    }
+}
